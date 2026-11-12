@@ -1,0 +1,27 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Java
+**/target/
+**/build/
+**/.gradle/
+
+# Node
+**/node_modules/
+**/dist/
+**/coverage/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Logs
+*.log
+
+# Local files
+*.local
